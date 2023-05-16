@@ -9,7 +9,7 @@ public class outputFormatting2 {
     }
     public static String multiple(int N){
         StringBuilder sb= new StringBuilder();
-        for(int i=0;i<=10;i++){
+        for(int i=1;i<=10;i++){
             int result = N*i;
             sb.append(N).append(" x ").append(i).append(" = ").append(result).append("\n");
 
